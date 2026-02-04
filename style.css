@@ -1,0 +1,39 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  color: SeaGreen;
+  font-size: 30px;
+  background-color: lightgray;
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+header:hover {
+  color: darkgreen;
+}
+
+section {
+  margin-top: 200px;
+  padding: 20px;
+  position: relative;
+}
+
+p,
+li {
+  font-size: 18px;
+  background-color: blueviolet;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
